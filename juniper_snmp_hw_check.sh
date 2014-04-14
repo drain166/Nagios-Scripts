@@ -1,7 +1,7 @@
 #!/bin/bash
  
 : '
-Written for SNMP v2c and Juniper MX*.  Adjust to taste.
+Written for SNMP v2c and Juniper MX*.  Season to taste.
  
 Sample raw snippet -
    SNMPv2-SMI::enterprises.2636.3.1.13.1.5.4.1.2.0 = STRING: "Fan 2"
