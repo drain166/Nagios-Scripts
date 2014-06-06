@@ -26,8 +26,8 @@ env_oid="1.3.6.1.4.1.2636.3.1.13.1"
 if [ $# -ne 3 ] ; then
    echo ""
    echo "Usage: juniper_snmp_hw_check.sh <ip_addr> <community_string> <sub_oid>
-   echo "   ex. juniper_snmp_hw_check.sh 10.102.1.231 snmppass1 4.1.1.0
-   echo "       --> [OK] Fan 1 - State: Running"
+   echo "   ex. juniper_snmp_hw_check.sh 10.102.1.231 snmppass1 4.1.2.0
+   echo "       --> [OK] Fan 2 - State: Running"
    echo ""
    exit
 fi
